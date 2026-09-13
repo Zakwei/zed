@@ -109,9 +109,9 @@ use zed_actions::{
     OpenServerSettings, OpenSettingsFile, OpenStatusPage, OpenZedUrl, Quit,
 };
 
-const DOCS_URL: &str = "https://zed.dev/docs/";
-const STATUS_URL: &str = "https://status.zed.dev";
-const MERCH_URL: &str = "https://merch.zed.dev/";
+const DOCS_URL: &str = "https://github.com/Zakwei/aitagent";
+const STATUS_URL: &str = "https://github.com/Zakwei/aitagent";
+const MERCH_URL: &str = "https://github.com/Zakwei/aitagent";
 
 pub struct CrashHandler(pub Arc<crashes::Client>);
 
