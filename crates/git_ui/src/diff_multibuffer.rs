@@ -402,6 +402,7 @@ impl DiffMultibuffer {
                 if !editor.focus_handle(cx).contains_focused(window, cx) {
                     return;
                 }
+                cx.emit(event.clone());
                 let Some(project_path) = self.active_project_path(cx) else {
                     return;
                 };
